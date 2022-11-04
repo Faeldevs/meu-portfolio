@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Currículo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="principal" id="navbar">
+        <nav>
+            <h1 class="principal__logo">Fael <span class="span-dev">Dev</span></h1>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="titulo">
+            <h1>Eu sou <br><span class="input"></span></h1>
+            <p>Administração e programação front-end.</p>
+            <a href="Moderno Profissional Currículo.pdf" class="botao">Meu currículo</a>
+        </div>
+
+        <!--- MINHA IMAGEM (Removi pois o efeito no js buga a imagem)
+            <div class="banner">
+            <img src="img/fotoeu.jpeg" alt="Foto do dono da pagina" class="banner__imagem">
+        </div>--->
+    </section>
+
+    <section class="sobre" id="sobre">
+        <div class="sobre__imagem">
+            <img src="img/mobile-inbox-animate.svg">
+        </div>
+        <div class="sobre__texto">
+            <h2>Sobre</h2>
+            <h3>Administração e front-end</h3>
+            <p>Meu nome é Rafael Silva e Silva, sou natural do Brasil, moro em Carangola-MG e tenho 21 anos. Estou em formação acadêmica em administração pela Universidade do Estado de Minas Gerais e sou um desenvolvedor Front-end. Tenho experiência administrativa, contábil, projetos em HTML5 e CSS3 e conhecimento breve em Javascript.
+            
+            <div class="sobre__projetos">
+                <p><span>+15</span> Projetos feitos.</p>
+            </div>  
+
+            <div class="sobre__link">
+                <a href="https://www.linkedin.com/in/rafael-silva-e-silva/" class="sobre__link--botao">Linkedin</a>
+                <a href="https://github.com/Faeldevs" class="sobre__link--botao">GitHub</a>
+        </div>
+    </section>
+
+    <section class="habilidades" id="habilidades">
+        <div class="habilidades__divisorio">
+            <h3 class="habilidades__titulo">Habilidades</h3>
+        </div>
+        <div class="habilidades__container">
+            <div class="habilidades__container--item"><a href="https://cursos.alura.com.br/certificate/8df639a9-d6d4-4d66-b789-2feeba583312">
+                <i class='bx bxl-html5' ></i>
+                <h3 class="habilidades__container-titulo">HTML</h3>
+                <p class="habilidades__container--texto">Experiência com projetos feito em HTML5 em Front.</p></a>
+            </div>
+
+            <div class="habilidades__container--item"><a href="https://cursos.alura.com.br/certificate/93de1570-a7f1-42e0-ade6-0f359556ccd7">
+                <i class='bx bxl-css3' ></i>
+                <h3 class="habilidades__container-titulo">CSS3</h3>
+                <p class="habilidades__container--texto">Experiência com projetos em flexbox e mobile first.</p></a>
+            </div>
+
+            <div class="habilidades__container--item" ><a href="https://cursos.alura.com.br/certificate/63adb4ff-60ca-48b7-bf76-6d2821b76325">
+                <i class='bx bxl-javascript' ></i>
+                <h3 class="habilidades__container-titulo">JavaScript</h3>
+                <p class="habilidades__container--texto">Experiência em projetos com dinâmicas JS.</p></a>
+            </div>
+
+            <div class="habilidades__container--item"><a href="https://cursos.alura.com.br/certificate/b23eca9d-fc37-483d-ae43-f33724bbc050">
+                <i class='bx bx-ghost'></i>
+                <h3 class="habilidades__container-titulo">FIGMA</h3>
+                <p class="habilidades__container--texto">Conhecimento em layouts e criação de projetos.</p></a>
+            </div>
+
+            <div class="habilidades__container--item">
+                <i class='bx bxs-graduation'></i>
+                <h3 class="habilidades__container-titulo">ADM - UEMG</h3>
+                <p class="habilidades__container--texto">Conhecimento acadêmico em administração.</p>
+            </div>
+
+            <div class="habilidades__container--item"><a href="https://cursos.alura.com.br/certificate/1448266b-a9c6-43e4-bb9e-d11493365a95">
+                <i class='bx bx-cast'></i>
+                <h3 class="habilidades__container-titulo">Marketing</h3>
+                <p class="habilidades__container--texto">Conhecimento em SEO e marketing direto.</p></a>
+            </div>
+        </div>
+     </section>
+
+     <section class="projetos" id="projetos">
+        <div>
+            <h2 class="projetos__titulo" >Projetos</h2>
+            <p class="projetos__texto">Projeto - "Perfil links"</p>
+            <img src="img/projeto1.png" alt="" class="projetos__imagem">
+        </div>
+
+        <div>
+            <p class="projetos__texto">Projeto - "Rocktnews"</p>
+            <img src="img/projeto2.png" alt="" class="projetos__imagem">
+        </div>
+
+        <div>
+            <p class="projetos__texto">Projeto - "Alura Book"</p>
+            <img src="img/projeto3.png" alt="" class="projetos__imagem">
+        </div>
+
+        <div>
+            <p class="projetos__texto">Projeto - "Clone Netflix"</p>
+            <img src="img/projeto4.png" alt="" class="projetos__imagem">
+        </div>
+
+        <div>
+            <p class="projetos__texto">Projeto - "CS GO dos Cria"</p>
+            <img src="img/projeto5.png" alt="" class="projetos__imagem">
+        </div>
+     </section>
+
+     <section class="contato">
+        <h2 class="contato__titulo">Contato</h2>
+        <div class="contato__container">
+            <h3>Surgiu algum interesse?</h3>
+            <h4>Me chame, vamos conversar !</h4>
+            <a href="https://wa.me/5532999943353" class="sobre__link--botao">WhatsApp</a>
+            <a href="https://www.instagram.com/fael_dev/?igshid=YmMyMTA2M2Y%3D" class="sobre__link--botao">Instagram</a>
+            <span>ou me envie um email</span>
+            <p>rafa20012008@outlook.com</p>
+        </div>
+     </section>
+
+     <footer id="copyright">
+        <p> &copy;  Copyright 2022 Portifólio, Todos os direitos reservados. 
+        </p>
+     </footer>
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>

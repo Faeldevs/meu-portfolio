@@ -1,0 +1,132 @@
+.sobre{
+    display: flex;
+    padding-top: 8em;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sobre__imagem{
+    width: 580px;
+    height: auto;
+}
+
+.sobre__texto h2{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 6px;
+    padding:  0 0 20px 0;
+}
+
+.sobre__texto h3{
+    color: rgb(159, 91, 223);
+    font-weight: 300;
+    font-size: 18px; 
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+
+.sobre__texto p{
+    text-align: justify;
+    max-width: 500px;
+    padding: 0 0 20px 0;
+    font-size: 16px;
+    font-weight:300;
+    line-height: 1.8rem;
+    color: #fff;
+}
+
+.sobre__projetos span, p{
+    color: rgb(159, 91, 223);
+    font-size: 40px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.sobre__projetos p{
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.sobre__link--botao{
+    text-decoration: none;
+    margin: 1em 1em 0 0;
+    background: rgb(89, 10, 141);
+    color: #fff;
+    box-shadow: 4px 4px rgb(255, 254, 254);
+    padding: 1em 25px;
+    display: inline-block ;
+    border: 1px solid transparent;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    transition: ease all 0.35s;
+}
+
+@media screen and (max-width:450px){
+    .sobre{
+        padding-top: 8em;
+        width: 100%;
+        display:flex;
+        align-self: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .sobre__imagem{
+        
+        align-items: center;
+        margin-right: 2em;
+        width: 200px;
+        height: 20vh;
+        padding: 0 0 200px 0;
+    }
+
+    .sobre__texto h2{
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .sobre__texto h3{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .sobre__texto p{
+        padding-left: 10px;
+        align-items: center;
+        width: 100%;
+        text-align:justify;
+    }
+
+    .sobre__link--botao{
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:1200px){
+    
+    .sobre__texto h2{
+        text-align: center;
+        font-size: 40px;
+    }
+    
+    .sobre__texto h3{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .sobre__imagem{
+        width: 50%;
+    }
+    
+    
+    .sobre__texto p{
+        text-align: justify;
+        align-items: center;
+        width: 95%;
+    }
+
+}

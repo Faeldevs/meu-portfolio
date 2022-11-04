@@ -1,0 +1,23 @@
+.projetos{
+    display: block;
+    text-align: center;
+    padding-top: 8em;
+}
+
+.projetos__titulo{
+    padding: 2em 0;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.projetos__texto{
+    font-size: 25px;
+}
+
+@media screen and (max-width:680px){
+    .projetos__imagem{
+        width: 250px;
+    }
+}

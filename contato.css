@@ -1,0 +1,40 @@
+
+.contato{
+    background: #0b0b13;
+    width: 100%;
+    display: block;
+    padding: 150px 0;
+    text-align: center;
+    margin: 100px auto;
+}
+
+.contato__titulo{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 2em 0;
+}
+
+.contato__container h3{
+    color: rgb(255, 255, 255);
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.contato__container h4{
+    color: rgb(59, 2, 92);
+    font-size: 4rem;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.contato__container p{
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.contato__container span{
+    display: block;
+    padding: 1em 0;
+}
