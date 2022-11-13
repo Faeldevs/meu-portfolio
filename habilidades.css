@@ -11,6 +11,8 @@
     grid-gap: 2rem;
     align-items: center;
     margin-top: 4.4rem;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 .habilidades__container--item{
     background-color: #0b0b13cb;
